@@ -9,7 +9,7 @@ namespace HomeWorkFifteenMultiplesNumber
             int number;
             int minRangeNumber = 10;
             int maxRangeNumber = 26;
-            int countMultiplesNumberes = 0;
+            int multiplesCount = 0;
             int minRangeMultiplesNumberes = 50;
             int maxRangeMultiplesNumberes = 150;
             int stepNumber = 0;
@@ -22,11 +22,11 @@ namespace HomeWorkFifteenMultiplesNumber
 
                 if (i >= minRangeMultiplesNumberes && i <= maxRangeMultiplesNumberes)
                 {
-                    countMultiplesNumberes++;
+                    multiplesCount++;
                 }
             }
 
-            Console.WriteLine($"The number of multiples numberes by {number} is equal to {countMultiplesNumberes}");
+            Console.WriteLine($"The number of multiples numberes by {number} is equal to {multiplesCount}");
         }
     }
 }
