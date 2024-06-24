@@ -12,15 +12,14 @@ namespace HomeWorkFifteenMultiplesNumber
             int multiplesCount = 0;
             int minRangeMultiplesNumberes = 50;
             int maxRangeMultiplesNumberes = 150;
-            int stepNumber = 0;
 
             Random random = new Random();
             number = random.Next(minRangeNumber, maxRangeNumber);
 
-            for (int i = stepNumber; i <= maxRangeMultiplesNumberes; i += number)
-            {               
+            for (int i = number; i <= maxRangeMultiplesNumberes; i += number)
+            {
 
-                if (i >= minRangeMultiplesNumberes && i <= maxRangeMultiplesNumberes)
+                if (i >= minRangeMultiplesNumberes)
                 {
                     multiplesCount++;
                 }
